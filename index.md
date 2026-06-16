@@ -3,10 +3,16 @@
 ## 核心文档
 - [[production-standard]] — AI 短视频创作规范（含目录结构、写作规则、提示词模板）
 - [[tool-chain]] — 工具链选型（可灵/即梦/海螺/剪映 对比 + API 方案）
-- [[character-consistency]] — 角色一致性三大支柱 + 崩脸排查
-- [[prompt-templates]] — 提示词模板库（角色/场景/视频三类）
+- [[character-consistency]] — 角色设计方法论 v2.0（视觉原型库、锚点法、角色卡模板）
+- [[character-expression-library]] — 表情 & 姿态库（7 基础表情、微表情序列、安全姿态 Top 10）
+- [[prompt-templates]] — 提示词模板库 v2.0（4 类题材、负面词库、摄影机指令）
+- [[script-writing-rules]] — AI 友好型剧本写作（4 类节奏公式、钩子 6 模式、翻译链路）
 - [[cost-model]] — 成本核算（可灵订阅 vs API 调用 vs 免费额度）
 - [[bilibili-strategy]] — B 站运营策略
+
+## 分镜
+- [[storyboard-design]] — 分镜设计基础（景别体系、角度、构图、180° 轴线）
+- [[storyboard-genre-patterns]] — 分镜类型模板 & 进阶技巧（4 类题材分镜模板、揭示技法、节奏控制）
 
 ## 工具对比
 - [[ai-video-tools-comparison]] — 可灵/即梦/海螺/Sora/Runway 横向对比
@@ -19,7 +25,6 @@
 - [[shot-checklist]] — 逐镜验收清单
 
 ## 创作
-- [[script-writing-rules]] — AI 友好型剧本写作
 - [[genre-analysis]] — 热门题材分析（悬疑/虐恋/逆袭等）
 
 ## 变现
