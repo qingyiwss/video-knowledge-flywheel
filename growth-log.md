@@ -106,6 +106,21 @@
   `world-setting-analytics.md`（170 行）：场景卡模板、世界观 L1-L4 分阶、数据→行动映射、AI 瑕疵修复手册
 - **能力提升：** 从「能做视频」到「知道做什么 + 怎么做 + 怎么优化」
 
+## [2026-06-17] 第8轮飞轮 — OpenMontage 部署 & 集成
+
+- **来源：** OpenMontage GitHub (calesthio/OpenMontage)，agentic video production 系统
+- **部署结果：**
+  - ✅ `git clone` + `make setup`（Python + Remotion + Piper TTS + npm）
+  - ✅ demo 编译通过（Remotion bundle 100%）
+  - ⚠️ 渲染因 4GB 服务器内存不足中断（Chromium headless 需 > 4GB），本地机器正常
+- **学到了什么：**
+  1. **OpenMontage 本质是 AI 编程助手的视频生产指令集。** 12 条 Pipeline YAML + 20+ 技能 MD + 4 套风格 = Agent 的「剧本」
+  2. **零 API Key 路径真的可用。** Piper TTS（离线）+ Remotion 动画组件 + 免版权素材 = $0 出片
+  3. **Pipeline 设计模式可复用。** 每条 Pipeline = YAML 定义流程 + Markdown 技能文档 + Python 工具函数。这个模式可以直接套用到我们的飞轮库
+  4. **渲染需要 GPU/大内存。** Remotion 用 Chromium headless，4GB VPS 不够，但本地 Mac/PC 没问题
+- **产出：** `openmontage-integration.md` — NΞXUS 集成指南（12 条 Pipeline 速查、零 Key 可用清单、与飞轮库协同方案）
+- **能力提升：** 从「手动按方法论操作」到「拥有 Agent 驱动的视频自动生产能力」
+
 ## 知识结构
 
 ```

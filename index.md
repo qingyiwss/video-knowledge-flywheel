@@ -23,6 +23,7 @@
 - [[genre-analysis]] — 6 大赛道分析、4 推荐题材深度拆解、决策矩阵
 
 ## 工具对比
+- [[openmontage-integration]] — OpenMontage 集成指南（12 Pipeline + 零 Key 可用清单）
 - [[ai-video-tools-comparison]] — 可灵/即梦/海螺/Sora/Runway 横向对比
 - [[platform-vs-api]] — 网页平台 vs API 调用方案对比
 - [[all-in-one-platforms]] — 漫小芽/灵绘AI 等一体机平台真实性调查
